@@ -1,0 +1,891 @@
+Book_ID,Book_Name,BooK_Price,Book_Rate,Category_ID
+1,It's Only the Himalayas,45.17,2,0
+2,Full Moon over Noahâs ...,49.43,4,0
+3,See America: A Celebration ...,48.87,3,0
+4,Vagabonding: An Uncommon Guide ...,36.94,2,0
+5,Under the Tuscan Sun,37.33,3,0
+6,A Summer In Europe,44.34,2,0
+7,The Great Railway Bazaar,30.54,1,0
+8,A Year in Provence ...,56.88,4,0
+9,The Road to Little ...,23.21,1,0
+10,Neither Here nor There: ...,38.95,3,0
+11,"1,000 Places to See ...",26.08,5,0
+12,Sharp Objects,47.82,4,1
+13,"In a Dark, Dark ...",19.63,3,1
+14,The Past Never Ends,56.5,4,1
+15,A Murder in Time,16.64,3,1
+16,The Murder of Roger ...,44.1,4,1
+18,That Darkness (Gardiner and ...,13.92,3,1
+19,Tastes Like Fear (DI ...,10.69,3,1
+20,A Time of Torment ...,48.35,5,1
+21,A Study in Scarlet ...,16.73,3,1
+22,Poisonous (Max Revere Novels ...,26.8,3,1
+23,Murder at the 42nd ...,54.36,4,1
+24,Most Wanted,35.28,3,1
+25,Hide Away (Eve Duncan ...,11.84,3,1
+26,Boar Island (Anna Pigeon ...,59.48,3,1
+27,The Widow,27.26,2,1
+28,Playing with Fire,13.71,3,1
+29,What Happened on Beale ...,25.37,5,1
+30,The Bachelor Girl's Guide ...,52.3,5,1
+31,Delivering the Truth (Quaker ...,20.89,4,1
+32,The Mysterious Affair at ...,24.8,4,1
+33,In the Woods (Dublin ...,38.38,2,1
+34,The Silkworm (Cormoran Strike ...,23.05,5,1
+35,The Exiled,43.45,3,1
+36,The Cuckoo's Calling (Cormoran ...,19.21,3,1
+37,Extreme Prey (Lucas Davenport ...,25.4,3,1
+38,Career of Evil (Cormoran ...,24.72,2,1
+39,The No. 1 Ladies' ...,57.7,4,1
+40,The Girl You Lost,12.29,3,1
+41,The Girl In The ...,15.85,3,1
+42,Blood Defense (Samantha Brinkman ...,20.3,3,1
+45,Forever and Forever: The ...,29.69,3,2
+46,A Flight of Arrows ...,55.53,5,2
+47,The House by the ...,36.95,1,2
+48,Mrs. Houdini,30.25,5,2
+49,The Marriage of Opposites,28.08,4,2
+50,Glory over Everything: Beyond ...,45.84,3,2
+51,"Love, Lies and Spies",20.55,2,2
+52,A Paris Apartment,39.01,4,2
+53,Lilac Girls,17.28,3,2
+54,The Constant Princess (The ...,16.62,3,2
+55,The Invention of Wings,37.34,1,2
+56,World Without End (The ...,32.97,4,2
+57,The Passion of Dolssa,28.32,5,2
+58,Girl With a Pearl ...,26.77,1,2
+59,Voyager (Outlander #3),21.07,5,2
+60,The Red Tent,35.66,5,2
+62,The Guernsey Literary and ...,49.53,1,2
+63,Girl in the Blue ...,46.83,2,2
+64,Between Shades of Gray,20.79,5,2
+65,While You Were Mine,41.32,5,2
+66,The Secret Healer,34.56,3,2
+67,Starlark,25.83,3,2
+68,Lost Among the Living,27.7,4,2
+69,A Spy's Devotion (The ...,16.97,3,2
+70,Scott Pilgrim's Precious Little ...,52.29,5,3
+71,Tsubasa: WoRLD CHRoNiCLE 2 ...,16.28,3,3
+72,This One Summer,19.49,3,3
+73,The Nameless City (The ...,38.16,4,3
+75,"Rat Queens, Vol. 3: ...",50.4,3,3
+76,"Princess Jellyfish 2-in-1 Omnibus, ...",13.61,3,3
+77,"Pop Gun War, Volume ...",18.97,3,3
+78,Patience,10.16,3,3
+79,"Outcast, Vol. 1: A ...",15.44,3,3
+80,orange: The Complete Collection ...,48.41,1,3
+81,"Lumberjanes, Vol. 2: Friendship ...",46.91,2,3
+82,"Lumberjanes, Vol. 1: Beware ...",45.61,3,3
+83,Lumberjanes Vol. 3: A ...,19.92,3,3
+84,"I Hate Fairyland, Vol. ...",29.17,2,3
+85,I am a Hero ...,54.63,3,3
+86,"Giant Days, Vol. 2 ...",22.11,2,3
+87,Danganronpa Volume 1,51.99,4,3
+88,"Codename Baboushka, Volume 1: ...",36.72,4,3
+89,Camp Midnight,17.08,3,3
+90,"Bitch Planet, Vol. 1: ...",37.92,2,3
+91,The Shadow Hero (The ...,33.14,1,3
+92,"Fables, Vol. 1: Legends ...",41.62,4,3
+93,Batman: The Long Halloween ...,36.5,2,3
+94,Batman: The Dark Knight ...,15.38,3,3
+95,"Wonder Woman: Earth One, ...",37.34,4,3
+97,Through the Woods,25.38,2,3
+98,Superman Vol. 1: Before ...,11.89,3,3
+99,"So Cute It Hurts!!, ...",35.43,4,3
+100,Robin War,47.82,3,3
+101,"Red Hood/Arsenal, Vol. 1: ...",25.48,2,3
+102,"Naruto (3-in-1 Edition), Vol. ...",38.39,2,3
+104,El Deafo,57.62,5,3
+105,Batman: Europa,32.01,2,3
+106,Art Ops Vol. 1,48.8,3,3
+107,Adulthood Is a Myth: ...,10.9,3,3
+108,"Fruits Basket, Vol. 9 ...",33.95,4,3
+109,Roller Girl,14.1,3,3
+110,"Fruits Basket, Vol. 7 ...",19.57,3,3
+111,"Fruits Basket, Vol. 6 ...",20.96,4,3
+112,"Death Note, Vol. 6: ...",36.39,3,3
+113,"Fruits Basket, Vol. 5 ...",16.33,3,3
+115,The Demon Prince of ...,27.88,2,3
+116,"Fruits Basket, Vol. 4 ...",50.44,4,3
+117,The Wicked + The ...,14.41,3,3
+118,"The Sandman, Vol. 3: ...",55.55,5,3
+119,"Saga, Volume 3 (Saga ...",21.57,5,3
+120,Prodigy: The Graphic Novel ...,43.63,3,3
+121,Persepolis: The Story of ...,39.13,1,3
+122,Original Fake,31.45,3,3
+123,"Grayson, Vol 3: Nemesis ...",42.72,1,3
+124,"Fruits Basket, Vol. 3 ...",45.17,2,3
+125,"Black Butler, Vol. 1 ...",49.31,1,3
+126,Awkward,38.02,2,3
+128,"Saga, Volume 2 (Saga ...",11.75,3,3
+129,"Fruits Basket, Vol. 2 ...",11.64,3,3
+130,"Y: The Last Man, ...",18.51,3,3
+131,The Wicked + The ...,36.52,2,3
+132,"The Sandman, Vol. 1: ...",54.12,3,3
+133,The Complete Maus (Maus ...,10.64,3,3
+134,"Skip Beat!, Vol. 01 ...",42.12,3,3
+135,"Saga, Volume 1 (Saga ...",28.48,1,3
+136,"Rat Queens, Vol. 1: ...",46.96,5,3
+137,"Paper Girls, Vol. 1 ...",21.71,4,3
+138,Ouran High School Host ...,29.87,3,3
+139,"Ms. Marvel, Vol. 1: ...",39.39,4,3
+140,"Hawkeye, Vol. 1: My ...",45.24,3,3
+141,"Giant Days, Vol. 1 ...",56.76,4,3
+142,"Fruits Basket, Vol. 1 ...",40.28,5,3
+143,"Bleach, Vol. 1: Strawberry ...",34.65,5,3
+144,"Ajin: Demi-Human, Volume 1 ...",57.06,4,3
+145,The Secret Garden,15.08,3,4
+146,The Metamorphosis,28.58,1,4
+148,The Hound of the ...,14.82,3,4
+149,Little Women (Little Women ...,28.07,4,4
+150,Gone with the Wind,32.49,3,4
+151,Candide,58.63,3,4
+152,Animal Farm,57.22,3,4
+153,Wuthering Heights,17.73,3,4
+154,The Picture of Dorian ...,29.7,2,4
+155,The Complete Stories and ...,26.78,4,4
+156,Beowulf,38.35,2,4
+157,And Then There Were ...,35.01,2,4
+158,The Story of Hong ...,43.19,4,4
+159,The Little Prince,45.42,2,4
+160,Sense and Sensibility,37.46,1,4
+161,Of Mice and Men,47.11,2,4
+162,Emma,32.93,2,4
+164,Sophie's World,15.94,3,5
+165,The Death of Humanity: ...,58.11,4,5
+166,The Stranger,17.44,3,5
+168,Kierkegaard: A Christian Missionary ...,47.13,1,5
+169,At The Existentialist CafÃ©: ...,29.93,5,5
+170,Critique of Pure Reason,20.75,1,5
+171,"Run, Spot, Run: The ...",20.02,1,5
+172,The Nicomachean Ethics,36.34,1,5
+173,Meditations,25.89,2,5
+174,Beyond Good and Evil,43.38,1,5
+175,Chase Me (Paris Nights ...,25.27,5,6
+176,Black Dust,34.53,5,6
+177,Her Backup Boyfriend (The ...,33.97,1,6
+178,First and First (Five ...,15.97,3,6
+179,Fifty Shades Darker (Fifty ...,21.96,1,6
+180,The Wedding Dress,24.12,1,6
+182,Something More Than This,16.24,3,6
+183,Doing It Over (Most ...,35.61,3,6
+184,The Wedding Pact (The ...,32.61,3,6
+185,Hold Your Breath (Search ...,28.82,1,6
+186,Dirty (Dive Bar #1),40.83,4,6
+187,Take Me Home Tonight ...,53.98,3,6
+188,Off the Hook (Fishing ...,47.67,3,6
+189,A Gentleman's Position (Society ...,14.75,3,6
+190,"Sit, Stay, Love",20.9,3,6
+191,A Girl's Guide to ...,31.3,1,6
+192,The Perfect Play (Play ...,59.99,3,6
+193,Dark Lover (Black Dagger ...,12.87,3,6
+194,Changing the Game (Play ...,13.38,3,6
+196,The Purest Hook (Second ...,12.25,3,6
+197,The Obsession,45.43,1,6
+198,Reservations for Two,11.1,3,6
+199,Best of My Love ...,27.41,2,6
+200,Where Lightning Strikes (Bleeding ...,39.77,3,6
+201,This One Moment (Pushing ...,48.71,1,6
+202,"Rhythm, Chord & Malykhin",28.34,2,6
+203,My Perfect Mistake (Over ...,38.92,2,6
+204,Listen to Me (Fusion ...,58.99,3,6
+205,Imperfect Harmony,34.74,4,6
+206,Fighting Fate (Fighting #6),39.24,3,6
+207,Deep Under (Walker Security ...,47.09,5,6
+208,Charity's Cross (Charles Towne ...,41.24,1,6
+209,Bounty (Colorado Mountain #7),37.26,4,6
+210,I Had a Nice ...,57.36,4,7
+211,Will You Won't You ...,13.86,3,7
+212,Keep Me Posted,20.46,4,7
+213,Grey (Fifty Shades #4),48.49,4,7
+214,Meternity,43.58,3,7
+215,Some Women,13.73,3,7
+216,Shopaholic Ties the Knot ...,48.39,5,7
+217,Can You Keep a ...,21.94,1,7
+218,Twenties Girl,42.8,2,7
+219,The Undomestic Goddess,45.75,4,7
+220,The Nanny Diaries (Nanny ...,52.53,5,7
+221,The Devil Wears Prada ...,44.29,1,7
+222,Something Borrowed (Darcy & ...,48.96,5,7
+224,I've Got Your Number,19.69,3,7
+225,The Edge of Reason ...,19.18,3,7
+226,Bridget Jones's Diary (Bridget ...,29.82,1,7
+228,Private Paris (Private #10),47.61,5,8
+229,"We Love You, Charlie ...",50.27,5,8
+230,Thirst,17.27,3,8
+231,The Murder That Never ...,54.11,3,8
+232,Tuesday Nights in 1980,21.04,2,8
+233,The Vacationers,42.15,4,8
+234,The Regional Office Is ...,51.36,5,8
+235,Finders Keepers (Bill Hodges ...,53.53,5,8
+236,The Time Keeper,27.88,5,8
+237,The Testament of Mary,52.67,4,8
+238,The First Hostage (J.B. ...,25.85,3,8
+239,Take Me with You,45.21,3,8
+240,Still Life with Bread ...,26.41,3,8
+241,Shtum,55.84,4,8
+242,My Name Is Lucy ...,41.56,1,8
+243,My Mrs. Brown,24.48,3,8
+244,Mr. Mercedes (Bill Hodges ...,28.9,1,8
+245,I Am Pilgrim (Pilgrim ...,10.6,3,8
+246,Eligible (The Austen Project ...,27.09,3,8
+247,Eight Hundred Grapes,14.39,3,8
+248,Dear Mr. Knightley,11.21,3,8
+249,Cometh the Hour (The ...,25.01,3,8
+250,Balloon Animals,17.03,3,8
+251,A Man Called Ove,39.72,1,8
+252,The Silent Sister (Riley ...,46.29,5,8
+255,Mothering Sunday,13.34,3,8
+256,Lies and Other Acts ...,45.14,1,8
+257,Daredevils,16.34,3,8
+258,11/22/63,48.48,3,8
+259,The Shack,28.03,1,8
+262,Hystopia: A Novel,21.96,4,8
+263,The Bourne Identity (Jason ...,42.78,4,8
+264,Sister Dear,40.2,4,8
+265,Memoirs of a Geisha,49.67,3,8
+266,Me Before You (Me ...,19.02,3,8
+267,Deception Point,40.32,4,8
+268,The Little Paris Bookshop,24.73,3,8
+269,The Firm,45.56,3,8
+270,The Expatriates,44.58,2,8
+271,Siddhartha,34.22,5,8
+272,Last One Home (New ...,59.98,3,8
+273,Digital Fortress,58,5,8
+274,Atlas Shrugged,26.58,5,8
+275,Three-Martini Lunch,23.21,3,8
+276,The Nightingale,26.26,4,8
+277,The Infinities,27.41,1,8
+278,The Husband's Secret,52.51,5,8
+279,The Da Vinci Code ...,22.96,2,8
+280,The Art of Fielding,22.1,1,8
+281,Lila (Gilead #3),12.47,3,8
+282,Jurassic Park (Jurassic Park ...,44.97,1,8
+283,Inferno (Robert Langdon #4),41,5,8
+284,Crazy Rich Asians (Crazy ...,49.13,5,8
+285,Big Little Lies,22.11,1,8
+286,The Course of Love,16.78,3,8
+287,When I'm Gone,51.96,3,8
+288,The Silent Wife,12.34,3,8
+289,The Bette Davis Club,30.66,3,8
+290,Kitchens of the Great ...,57.2,5,8
+291,Bright Lines,39.07,5,8
+292,Birdsong: A Story in ...,54.64,3,9
+293,The Bear and the ...,36.89,1,9
+295,The White Cat and ...,58.08,4,9
+296,Little Red,13.47,3,9
+297,Walt Disney's Alice in ...,12.96,3,9
+298,Twenty Yawns,22.08,2,9
+299,Rain Fish,23.57,3,9
+300,Once Was a Time,18.28,3,9
+301,Luis Paints the World,53.95,3,9
+302,Nap-a-Roo,25.08,1,9
+303,The Whale,35.96,4,9
+304,"Shrunken Treasures: Literary Classics, ...",52.87,3,9
+305,Raymie Nightingale,34.41,2,9
+306,Playing from the Heart,32.38,1,9
+307,Maybe Something Beautiful: How ...,22.54,1,9
+308,The Wild Robot,56.07,3,9
+309,The Thing About Jellyfish,48.77,1,9
+310,The Lonely Ones,43.59,5,9
+311,The Day the Crayons ...,26.33,5,9
+312,The Cat in the ...,16.26,3,9
+313,Red: The True Story ...,28.54,3,9
+314,Horrible Bear!,37.52,2,9
+315,Green Eggs and Ham ...,10.79,3,9
+316,Counting Thyme,10.62,3,9
+317,Are We There Yet?,10.66,3,9
+318,Diary of a Minecraft ...,52.88,4,9
+319,Matilda,28.34,1,9
+320,Charlie and the Chocolate ...,22.85,3,9
+321,Don't Be a Jerk: ...,37.97,2,10
+322,You Are What You ...,21.87,4,10
+323,God: The Most Unpleasant ...,30.03,5,10
+324,The Book of Mormon,24.57,3,10
+325,A History of God: ...,27.62,1,10
+326,The Bhagavad Gita,57.49,3,10
+327,Choosing Our Religion: The ...,28.42,4,10
+328,Worlds Elsewhere: Journeys Around ...,40.3,5,11
+329,The Five Love Languages: ...,31.05,3,11
+330,Reasons to Stay Alive,26.41,2,11
+331,#HigherSelfie: Wake Up Your ...,23.11,5,11
+332,Unseen City: The Majesty ...,44.18,4,11
+333,Throwing Rocks at the ...,31.12,3,11
+334,The Life-Changing Magic of ...,16.77,3,11
+335,The Gutsy Girl: Escapades ...,37.13,1,11
+337,Spark Joy: An Illustrated ...,41.83,4,11
+338,Reskilling America: Learning to ...,19.83,3,11
+339,In the Country We ...,22,4,11
+341,Call the Nurse: True ...,29.14,5,11
+342,Algorithms to Live By: ...,30.81,1,11
+343,The Power of Now: ...,43.54,2,11
+344,The Omnivore's Dilemma: A ...,38.21,2,11
+345,The Genius of Birds,17.24,3,11
+346,The Artist's Way: A ...,38.49,5,11
+347,So You've Been Publicly ...,12.23,3,11
+348,Daring Greatly: How the ...,19.43,3,11
+349,Big Magic: Creative Living ...,30.8,3,11
+350,Becoming Wise: An Inquiry ...,27.43,2,11
+351,Agnostic: A Spirited Manifesto,12.51,3,11
+352,Whole Lotta Creativity Going ...,38.2,4,11
+353,What's It Like in ...,19.6,3,11
+354,The Year of Magical ...,43.04,2,11
+355,The Literature Book (Big ...,17.43,3,11
+356,The Bad-Ass Librarians of ...,15.77,3,11
+357,Swell: A Year of ...,45.58,1,11
+358,No Dream Is Too ...,21.95,2,11
+359,Looking for Lovely: Collecting ...,29.14,5,11
+360,Let It Out: A ...,26.79,5,11
+361,Hamilton: The Revolution,58.79,3,11
+362,Far & Away: Places ...,15.06,3,11
+363,Eaternity: More than 150 ...,51.75,5,11
+364,Buying In: The Secret ...,37.8,4,11
+365,Brain on Fire: My ...,49.32,5,11
+366,Abstract City,56.37,5,11
+367,13 Hours: The Inside ...,27.06,1,11
+368,The Lonely City: Adventures ...,33.26,2,11
+369,The Diary of a ...,59.9,3,11
+370,Snatched: How A Drug ...,21.21,3,11
+371,Furiously Happy: A Funny ...,41.46,4,11
+372,The Sleep Revolution: Transforming ...,11.68,3,11
+373,"Mother, Can You Not?",16.89,3,11
+374,A Mother's Reckoning: Living ...,19.53,3,11
+375,10% Happier: How I ...,24.57,2,11
+376,Chernobyl 01:23:40: The Incredible ...,35.92,2,11
+377,Zero to One: Notes ...,34.06,3,11
+378,Why Not Me?,17.76,3,11
+379,When Breath Becomes Air,39.36,2,11
+380,"The Midnight Assassin: Panic, ...",28.45,4,11
+381,Smarter Faster Better: The ...,38.89,5,11
+382,Rising Strong,21.82,3,11
+383,Man's Search for Meaning,29.48,3,11
+384,Love That Boy: What ...,25.06,2,11
+385,Living Forward: A Proven ...,12.55,3,11
+386,I Will Find You,44.21,1,11
+387,Brazen: The Courage to ...,19.22,3,11
+388,Between the World and ...,56.91,4,11
+389,Being Mortal: Medicine and ...,55.06,4,11
+390,A Murder Over a ...,13.2,3,11
+391,For the Love: Fighting ...,45.13,3,11
+392,Finding God in the ...,46.64,2,11
+393,The Man Who Mistook ...,59.45,4,11
+394,In Cold Blood,49.98,4,11
+395,"Girl, Interrupted",42.14,3,11
+396,Why Save the Bankers?: ...,48.67,2,11
+397,Talking to Girls About ...,25.15,4,11
+398,My Mother Was Nuts,31.63,4,11
+399,"Data, A Love Story: ...",32.35,3,11
+400,The Jazz of Physics: ...,38.71,3,11
+401,The Gunning of America: ...,16.81,3,11
+402,The Geography of Bliss: ...,28.23,2,11
+403,God Is Not Great: ...,27.8,1,11
+404,We the People: The ...,31.95,3,11
+405,Very Good Lives: The ...,50.66,3,11
+407,Under the Banner of ...,30,1,11
+409,The Name of God ...,37.25,2,11
+410,Stiff: The Curious Lives ...,36.74,3,11
+411,Spilled Milk: Based on ...,49.51,1,11
+412,Rise of the Rocket ...,41.67,4,11
+413,Outliers: The Story of ...,14.16,3,11
+414,Notes from a Small ...,40.17,1,11
+415,Night (The Night Trilogy ...,13.51,3,11
+417,Letter to a Christian ...,22.2,1,11
+418,Let's Pretend This Never ...,45.11,1,11
+419,It's Never Too Late ...,42.38,1,11
+420,Into the Wild,56.7,5,11
+421,In the Garden of ...,28.85,3,11
+422,I Am Malala: The ...,28.88,2,11
+423,Gratitude,26.66,5,11
+424,Disrupted: My Misadventure in ...,15.28,3,11
+425,Brave Enough,51.32,5,11
+426,Born to Run: A ...,27.35,2,11
+427,Blink: The Power of ...,21.74,5,11
+428,Black Flags: The Rise ...,40.87,1,11
+430,A Walk in the ...,30.48,4,11
+431,The Suffragettes (Little Black ...,11.89,3,11
+432,Kindle Paperwhite User's Guide,34,3,11
+433,H is for Hawk,57.42,5,11
+434,Travels with Charley: In ...,57.82,5,11
+435,The Tumor,41.56,5,11
+436,The End of the ...,14.4,3,11
+437,"Eat, Pray, Love",51.32,3,11
+438,Rip it Up and ...,35.02,5,12
+439,Our Band Could Be ...,57.25,3,12
+440,How Music Works,37.32,2,12
+441,Love Is a Mix ...,18.03,3,12
+442,Please Kill Me: The ...,31.19,4,12
+443,Kill 'Em and Leave: ...,45.05,5,12
+445,This Is Your Brain ...,38.4,1,12
+446,Orchestra of Exiles: The ...,12.36,3,12
+447,No One Here Gets ...,20.02,5,12
+448,Life,31.58,5,12
+450,Forever Rockers (The Rocker ...,28.8,3,12
+451,The Coming Woman: A ...,17.93,3,13
+452,The Boys in the ...,22.6,4,13
+453,Starving Hearts (Triangular Trade ...,13.99,3,13
+454,America's Cradle of Quarterbacks: ...,22.5,3,13
+455,Aladdin and His Wonderful ...,53.13,3,13
+456,Penny Maybe,33.29,3,13
+457,Maude (1883-1993):She Grew Up ...,18.02,3,13
+458,The Inefficiency Assassin: Time ...,20.59,5,13
+459,Soul Reader,39.58,2,13
+460,Bossypants,49.46,2,13
+461,A World of Flavor: ...,42.95,1,13
+462,"A Piece of Sky, ...",56.76,5,13
+463,Tracing Numbers on a ...,41.6,3,13
+465,The Secret (The Secret ...,27.37,4,13
+466,The Psychopath Test: A ...,36,2,13
+467,The Kite Runner,41.82,4,13
+469,The Emerald Mystery,23.15,2,13
+470,The Bridge to Consciousness: ...,32,3,13
+471,The Art of War,33.34,5,13
+472,Secrets and Lace (Fatal ...,20.27,1,13
+473,Romero and Juliet: A ...,36.94,1,13
+474,Poses for Artists Volume ...,41.06,1,13
+475,Miss Peregrineâs Home for ...,10.76,3,13
+476,Large Print Heart of ...,19.15,3,13
+477,Grumbles,22.16,2,13
+478,First Steps for New ...,29,1,13
+479,Eureka Trivia 6.0,54.59,4,13
+480,Drive: The Surprising Truth ...,34.95,4,13
+481,Done Rubbed Out (Reightman ...,37.72,5,13
+482,Beauty Restored (Riley Family ...,11.11,3,13
+483,Ayumi's Violin,15.48,3,13
+484,Anonymous,46.82,4,13
+485,Amy Meets the Saints ...,18.46,3,13
+486,Amatus,50.54,5,13
+487,V for Vendetta (V ...,37.1,4,13
+488,Unbroken: A World War ...,45.95,2,13
+489,The Wright Brothers,56.8,4,13
+490,The Songs of the ...,44.48,5,13
+492,The Power of Habit: ...,16.88,3,13
+493,Steve Jobs,39.5,5,13
+494,Luckiest Girl Alive,49.83,3,13
+495,Living Leadership by Insight: ...,46.91,4,13
+496,Lady Midnight (The Dark ...,16.28,3,13
+497,"Hush, Hush (Hush, Hush ...",47.02,3,13
+498,Greek Mythic History,10.23,3,13
+499,Every Last Word,46.47,3,13
+500,Daily Fantasy Sports,36.58,1,13
+501,Clockwork Angel (The Infernal ...,44.14,1,13
+502,City of Fallen Angels ...,11.23,3,13
+503,City of Bones (The ...,43.28,1,13
+504,City of Ashes (The ...,47.27,1,13
+505,"Carry On, Warrior: Thoughts ...",31.85,3,13
+506,Carrie,46.23,2,13
+507,Angels & Demons (Robert ...,51.48,3,13
+508,"The Three Searches, Meaning, ...",13.33,3,13
+509,Raspberry Pi Electronics Projects ...,49.67,4,13
+510,How to Speak Golf: ...,58.32,5,13
+511,Eleanor & Park,56.51,5,13
+512,Troublemaker: Surviving Hollywood and ...,48.39,2,13
+513,Adultery,20.88,5,13
+514,Unlimited Intuition Now,58.87,4,13
+515,Underlying Notes,11.82,3,13
+516,The New Brand You: ...,44.05,5,13
+517,The Flowers Lied,16.68,3,13
+518,NaNo What Now? Finding ...,10.41,3,13
+519,Modern Day Fables,47.44,2,13
+520,The Unlikely Pilgrimage of ...,43.62,5,13
+521,The Martian (The Martian ...,41.39,2,13
+522,Left Behind (Left Behind ...,40.72,2,13
+523,John Vassos: Industrial Design ...,20.22,4,13
+526,Ender's Game (The Ender ...,43.64,1,13
+527,Death by Leisure: A ...,37.51,4,13
+528,Wildlife of New York: ...,22.14,2,13
+529,The Year of Living ...,34.72,1,13
+530,The Great Gatsby,36.05,4,13
+531,The Good Girl,49.03,3,13
+532,The 7 Habits of ...,33.17,4,13
+533,Steal Like an Artist: ...,20.9,2,13
+534,Life of Pi,13.22,3,13
+535,The Sound Of Love,57.84,5,13
+536,The Perks of Being ...,55.02,3,13
+537,The Makings of a ...,31.58,2,13
+538,The Hobbit (Middle-Earth Universe),17.8,3,13
+539,The Fellowship of the ...,10.27,3,13
+540,Ship Leaves Harbor: Essays ...,30.6,3,13
+541,Musicophilia: Tales of Music ...,46.58,1,13
+542,What If?: Serious Scientific ...,53.68,4,13
+543,The Fault in Our ...,47.22,1,13
+544,The Dream Thieves (The ...,34.5,1,13
+545,The 5th Wave (The ...,11.83,3,13
+546,Shiver (The Wolves of ...,16.23,3,13
+547,Remember Me?,11.48,3,13
+548,If I Stay (If ...,38.13,5,13
+549,I Know Why the ...,36.55,2,13
+550,Harry Potter and the ...,23.32,1,13
+551,Fool Me Once,16.96,3,13
+552,Drama,38.7,2,13
+553,"Blue Lily, Lily Blue ...",34.13,5,13
+554,Alight (The Generations Trilogy ...,58.59,4,13
+555,Vogue Colors A to ...,52.35,4,13
+556,The Shining (The Shining ...,27.88,3,13
+557,The Hunger Games (The ...,29.85,5,13
+558,Outlander (Outlander #1),19.67,3,13
+559,Mockingjay (The Hunger Games ...,20.44,4,13
+560,Harry Potter and the ...,13.9,3,13
+561,Confessions of a Shopaholic ...,48.94,2,13
+562,Zero History (Blue Ant ...,34.77,1,13
+563,World War Z: An ...,21.8,1,13
+564,Wild: From Lost to ...,46.02,3,13
+565,"Where'd You Go, Bernadette",18.13,3,13
+566,Twilight (Twilight #1),41.93,2,13
+567,The Paris Wife,36.8,3,13
+568,The Maze Runner (The ...,20.93,1,13
+570,The Goldfinch,43.58,3,13
+571,The Giver (The Giver ...,12.3,3,13
+572,The Girl Who Played ...,22.14,2,13
+573,The Demon-Haunted World: Science ...,52.25,4,13
+575,The Autobiography of Malcolm ...,23.43,2,13
+576,Shopaholic & Baby (Shopaholic ...,46.45,2,13
+577,Quiet: The Power of ...,43.55,1,13
+579,Orange Is the New ...,24.61,2,13
+580,One for the Money ...,32.87,2,13
+581,Morning Star (Red Rising ...,29.4,1,13
+582,Life After Life,26.13,2,13
+583,"Lean In: Women, Work, ...",25.02,1,13
+584,Is Everyone Hanging Out ...,20.11,3,13
+585,Gone Girl,37.6,5,13
+586,Fellside,38.62,1,13
+587,Eclipse (Twilight #3),18.74,3,13
+588,Dracula,52.62,3,13
+589,Dead Wake: The Last ...,39.24,5,13
+590,"David and Goliath: Underdogs, ...",17.81,3,13
+591,Dark Places,23.9,5,13
+592,Breaking Dawn (Twilight #4),35.28,5,13
+593,Beautiful Creatures (Caster Chronicles ...,21.55,5,13
+594,A Visit from the ...,14.08,3,13
+595,The Zombie Room,19.69,3,13
+596,The Name of the ...,50.59,3,13
+597,Taking Shots (Assassins #1),18.88,3,13
+598,Shatter Me (Shatter Me ...,42.4,1,13
+599,Paradise Lost (Paradise #1),24.96,1,13
+600,On the Road (Duluoz ...,32.36,3,13
+601,Jane Eyre,38.43,5,13
+602,Frankenstein,38,2,13
+603,Mesaerion: The Best Science ...,37.59,1,14
+604,Join,35.67,5,14
+605,William Shakespeare's Star Wars: ...,43.3,4,14
+606,The Project,10.65,3,14
+607,Soft Apocalypse,26.12,2,14
+608,Sleeping Giants (Themis Files ...,48.74,1,14
+609,Arena,21.36,4,14
+610,Foundation (Foundation (Publication Order) ...,32.42,1,14
+611,The Restaurant at the ...,10.92,3,14
+612,Ready Player One,19.07,3,14
+613,"Life, the Universe and ...",33.26,2,14
+616,Three Wishes (River of ...,44.18,2,14
+617,The Last Girl (The ...,36.26,2,14
+618,Having the Barbarian's Baby ...,34.96,4,14
+619,The Book of Basketball: ...,44.84,5,15
+620,Friday Night Lights: A ...,51.22,3,15
+621,Sugar Rush (Offensive Line ...,24.42,1,15
+622,Settling the Score (The ...,44.91,2,15
+623,Icing (Aces Hockey #2),40.44,4,15
+624,The Torch Is Passed: ...,19.09,3,16
+625,The Mindfulness and Acceptance ...,23.89,4,16
+626,The Art Forger,40.76,3,16
+627,On a Midnight Clear,14.07,3,16
+629,"Shobu Samurai, Project Aryoku ...",29.06,3,16
+630,Modern Romance,28.26,5,16
+631,The White Queen (The ...,25.91,5,16
+632,The Song of Achilles,37.4,5,16
+633,The Immortal Life of ...,40.67,2,16
+634,The Dovekeepers,48.78,1,16
+635,More Than Music (Chasing ...,37.61,2,16
+636,Code Name Verity (Code ...,22.13,4,16
+637,Cell,20.29,4,16
+638,Angels Walking (Angels Walking ...,34.2,2,16
+640,A People's History of ...,40.79,2,16
+642,Rook,37.86,4,16
+643,The Midnight Watch: A ...,26.2,1,16
+644,The Gray Rhino: How ...,59.15,4,16
+645,The Children,11.88,3,16
+646,One with You (Crossfire ...,15.71,3,16
+647,Without Shame,48.27,5,16
+648,Watchmen,58.05,4,16
+649,A Hero's Curse (The ...,50.49,3,16
+650,23 Degrees South: A ...,35.79,2,16
+651,The Glass Castle,16.24,3,16
+652,The Drowning Girls,35.67,3,16
+653,Team of Rivals: The ...,20.12,5,16
+654,John Adams,57.43,4,16
+655,Good in Bed (Cannie ...,37.05,5,16
+656,The Joy of Cooking,43.27,4,16
+657,The Golden Compass (His ...,18.77,3,16
+658,The God Delusion,46.85,3,16
+659,Pride and Prejudice,19.27,3,16
+660,Mere Christianity,48.51,3,16
+661,Fun Home: A Family ...,56.59,4,16
+662,The Raven King (The ...,30.57,2,16
+663,Find Her (Detective D.D. ...,22.37,1,16
+664,Evicted: Poverty and Profit ...,42.27,1,16
+665,A Game of Thrones ...,46.42,2,16
+666,A Clash of Kings ...,10.79,3,16
+667,The Tipping Point: How ...,10.02,3,16
+668,The Rest Is Noise: ...,34.77,1,16
+669,The Purpose Driven Life: ...,37.19,3,16
+670,The Hitchhiker's Guide to ...,47.8,3,16
+672,The End of Faith: ...,22.13,4,16
+673,The Complete Poems,41.32,5,16
+674,The Catcher in the ...,24.55,1,16
+675,The Case for Christ ...,47.84,1,16
+676,The Blind Side: Evolution ...,53.71,5,16
+678,Sarah's Key,46.29,1,16
+679,Rogue Lawyer (Rogue Lawyer ...,50.11,3,16
+680,Manuscript Found in Accra,34.98,2,16
+681,Fire Bound (Sea Haven/Sisters ...,21.28,4,16
+682,Cosmos,36.17,2,16
+684,The Sense of an ...,31.38,3,16
+685,The Republic,33.78,3,16
+686,The Odyssey,29.64,3,16
+688,The Iliad,16.16,3,16
+689,The Communist Manifesto,14.76,3,16
+690,Lord of the Flies,24.89,3,16
+691,Without Borders (Wanderlove #1),45.07,2,17
+692,The Mistake (Off-Campus #2),43.29,3,17
+694,The Hook Up (Game ...,36.29,5,17
+695,Shameless,58.35,3,17
+696,Off Sides (Off #1),39.45,5,17
+697,The Requiem Red,22.65,1,18
+698,Set Me Free,17.46,3,18
+699,The Natural History of ...,45.22,3,18
+700,Obsidian (Lux #1),14.86,3,18
+701,Burning,28.81,3,18
+702,A Fierce and Subtle ...,28.13,4,18
+703,Scarlett Epstein Hates It ...,43.55,5,18
+704,"Nightingale, Sing",38.28,1,18
+705,Library of Souls (Miss ...,48.56,5,18
+706,Frostbite (Vampire Academy #2),29.99,5,18
+707,Wild Swans,14.36,3,18
+708,Until Friday Night (The ...,46.31,2,18
+709,This Is Where It ...,27.12,2,18
+710,The Darkest Lie,35.35,5,18
+711,My Kind of Crazy,40.36,1,18
+713,Catching Jordan (Hundred Oaks),50.83,3,18
+714,Aristotle and Dante Discover ...,58.14,4,18
+715,The Epidemic (The Program ...,14.44,3,18
+716,Stars Above (The Lunar ...,48.05,2,18
+717,No Love Allowed (Dodge ...,54.65,4,18
+718,"Exit, Pursued by a ...",51.34,4,18
+720,Don't Forget Steven,33.23,1,18
+721,South of Sunshine,28.93,1,18
+722,My Life Next Door ...,36.39,5,18
+723,Future Shock (Future Shock ...,55.65,5,18
+724,Nightstruck: A Novel,50.35,4,18
+726,"Will Grayson, Will Grayson ...",47.31,4,18
+727,Where She Went (If ...,41.73,4,18
+728,Two Summers,14.64,3,18
+729,The Darkest Corners,11.33,3,18
+730,Tell Me Three Things,41.81,1,18
+731,Lola and the Boy ...,23.63,4,18
+732,Kill the Boy Band,15.52,3,18
+733,Isla and the Happily ...,48.13,5,18
+734,An Abundance of Katherines,10,3,18
+735,Harry Potter and the ...,24.17,4,18
+736,Walk the Edge (Thunder ...,32.36,3,18
+737,Two Boys Kissing,32.74,2,18
+738,The New Guy (and ...,44.92,3,18
+739,"The Land of 10,000 ...",29.64,4,18
+740,Scarlet (The Lunar Chronicles ...,14.57,3,18
+741,Legend (Legend #1),43.69,4,18
+742,Lady Renegades (Rebel Belle ...,53.04,5,18
+743,Golden (Heart of Dread ...,42.21,4,18
+744,Cinder (The Lunar Chronicles ...,26.09,1,18
+745,Boy Meets Boy,21.12,3,18
+746,Annie on My Mind,36.83,5,18
+747,New Moon (Twilight #2),12.86,3,18
+749,The Haters,27.89,5,18
+750,The Art of Not ...,40.83,4,18
+751,The Most Perfect Thing: ...,42.96,4,19
+752,Immunity: How Elie Metchnikoff ...,57.36,5,19
+753,Sorting the Beef from ...,44.74,4,19
+754,Tipping Point for Planet ...,37.55,1,19
+756,Diary of a Citizen ...,28.41,1,19
+757,The Origin of Species,10.01,3,19
+758,The Grand Design,13.76,3,19
+759,Peak: Secrets from the ...,16.28,3,19
+760,"The Elegant Universe: Superstrings, ...",13.03,3,19
+761,The Disappearing Spoon: And ...,57.35,5,19
+762,"Surely You're Joking, Mr. ...",25.83,2,19
+763,Seven Brief Lessons on ...,30.6,4,19
+764,The Selfish Gene,29.45,1,19
+765,A Light in the ...,51.77,3,20
+767,Shakespeare's Sonnets,20.66,4,20
+768,Olio,23.88,1,20
+769,You can't bury them ...,33.63,2,20
+770,Slow States of Collapse: ...,57.31,3,20
+771,Untitled Collection: Sabbath Poems ...,14.27,3,20
+772,Poems That Make Grown ...,14.19,3,20
+773,Night Sky with Exit ...,41.05,1,20
+774,salt.,46.78,4,20
+775,Quarter Life Poetry: Poems ...,50.89,5,20
+776,Out of Print: City ...,53.64,5,20
+777,Les Fleurs du Mal,29.04,5,20
+778,Howl and Other Poems,40.45,2,20
+779,Leave This Song Behind: ...,51.17,5,20
+780,The Collected Poems of ...,15.42,3,20
+781,The Crossover,38.77,4,20
+782,Booked,17.49,3,20
+783,Twenty Love Poems and ...,30.95,4,20
+784,"Vampire Knight, Vol. 1 ...",15.4,3,21
+785,Wall and Piece,44.18,4,22
+786,Feathers: Displays of Brilliant ...,49.05,3,22
+787,Art and Fear: Observations ...,48.63,4,22
+788,The New Drawing on ...,43.02,3,22
+789,History of Beauty,10.29,3,22
+790,The Story of Art,41.14,4,22
+791,The Art Book,32.34,2,22
+792,Ways of Seeing,39.51,5,22
+793,The Lucifer Effect: Understanding ...,10.4,3,23
+794,The Golden Condom: And ...,39.43,1,23
+795,It Didn't Start with ...,56.27,3,23
+796,An Unquiet Mind: A ...,21.3,3,23
+797,"Thinking, Fast and Slow",21.14,1,23
+799,8 Keys to Mental ...,31.04,1,23
+800,The Argonauts,10.93,3,24
+801,M Train,27.18,1,24
+802,Lab Girl,40.85,1,24
+803,Approval Junkie: Adventures in ...,58.81,5,24
+804,Running with Scissors,12.91,3,24
+806,Lust & Wonder,11.87,3,24
+807,Life Without a Recipe,59.04,5,24
+808,A Heartbreaking Work of ...,54.29,5,24
+809,Catastrophic Happiness: Finding Joy ...,37.35,2,25
+810,Fifty Shades Freed (Fifty ...,15.36,3,26
+811,The Long Haul (Diary ...,44.07,1,27
+812,Old School (Diary of ...,11.83,3,27
+813,I Know What I'm ...,25.98,4,27
+814,Hyperbole and a Half: ...,14.75,3,27
+815,Dress Your Family in ...,43.68,3,27
+816,Toddlers Are A**holes: It's ...,25.55,1,27
+817,When You Are Engulfed ...,30.89,5,27
+818,Naked,31.69,3,27
+819,Lamb: The Gospel According ...,55.5,5,27
+821,Security,39.25,2,28
+822,Follow You Home,21.36,1,28
+823,The Loney,23.4,1,28
+824,Pet Sematary,10.56,3,28
+825,Doctor Sleep (The Shining ...,40.12,2,28
+826,Psycho: Sanitarium (Psycho #1.5),36.97,5,28
+827,Can You Keep a ...,48.64,1,28
+828,Red Dragon (Hannibal Lecter ...,23.37,3,28
+829,Dracula the Un-Dead,35.63,5,28
+830,Night Shift (Night Shift ...,12.75,3,28
+831,Needful Things,47.51,4,28
+832,Misery,34.79,2,28
+833,It,25.01,3,28
+834,'Salem's Lot,49.56,4,28
+836,The Girl with All ...,49.47,3,28
+838,Sapiens: A Brief History ...,54.23,5,29
+839,Unbound: How Eight Technologies ...,25.52,1,29
+840,The Age of Genius: ...,19.73,3,29
+841,"Political Suicide: Missteps, Peccadilloes, ...",36.28,2,29
+843,Zealot: The Life and ...,24.7,3,29
+844,A Distant Mirror: The ...,14.58,3,29
+845,1491: New Revelations of ...,21.8,3,29
+846,Brilliant Beacons: A History ...,11.45,3,29
+847,"""Most Blessed of the ...",44.48,5,29
+848,A Short History of ...,52.4,5,29
+849,The Rise and Fall ...,39.67,2,29
+850,Catherine the Great: Portrait ...,58.55,4,29
+851,The Mathews Men: Seven ...,42.91,5,29
+852,The Hiding Place,55.91,4,29
+854,The Guns of August,14.54,3,29
+855,House of Lost Worlds: ...,43.7,2,29
+856,Foolproof Preserving: A Guide ...,30.52,3,30
+858,My Paris Kitchen: Recipes ...,33.37,2,30
+859,Mama Tried: Traditional Italian ...,14.02,3,30
+860,"Layered: Baking, Building, and ...",40.11,1,30
+861,The Nerdy Nummies Cookbook: ...,37.34,5,30
+862,The Love and Lemons ...,37.6,2,30
+863,The Cookies & Cups ...,41.25,1,30
+864,Deliciously Ella Every Day: ...,42.16,3,30
+865,The Help Yourself Cookbook ...,28.77,3,30
+866,"It's All Easy: Healthy, ...",19.55,3,30
+867,Barefoot Contessa Back to ...,28.01,1,30
+868,Barefoot Contessa at Home: ...,50.62,5,30
+869,My Kitchen Year: 136 ...,11.53,3,30
+870,Everyday Italian: 125 Simple ...,20.1,5,30
+871,A la Mode: 120 ...,38.77,1,30
+872,Cravings: Recipes for What ...,20.5,3,30
+873,The Moosewood Cookbook: Recipes ...,12.34,3,30
+875,Naturally Lean: 125 Nourishing ...,11.38,3,30
+876,How to Cook Everything ...,46.01,4,30
+877,How to Be a ...,28.25,2,30
+878,The Barefoot Contessa Cookbook,59.92,5,30
+879,Better Homes and Gardens ...,39.61,3,30
+880,The Power Greens Cookbook: ...,11.05,3,30
+881,Mexican Today: New and ...,24.91,5,30
+882,Vegan Vegetarian Omnivore: Dinner ...,13.66,3,30
+883,The Smitten Kitchen Cookbook,23.59,1,30
+884,The Art of Simple ...,34.32,3,30
+885,Hungry Girl Clean & ...,33.14,3,30
+886,Redeeming Love,20.47,5,31
+887,Close to You,49.46,4,31
+888,Shadows of the Past ...,39.67,5,31
+889,Like Never Before (Walker ...,28.77,2,31
+890,Counted With the Stars ...,17.97,3,31
+891,If I Run (If ...,49.97,4,31
+892,The Dirty Little Secrets ...,33.34,4,32
+893,The Third Wave: An ...,12.61,3,32
+894,The 10% Entrepreneur: Live ...,27.55,3,32
+895,Shoe Dog: A Memoir ...,23.99,2,32
+896,Made to Stick: Why ...,38.85,5,32
+897,Quench Your Own Thirst: ...,43.14,1,32
+898,The Art of Startup ...,21,3,32
+899,Born for This: How ...,21.59,5,32
+900,The E-Myth Revisited: Why ...,36.91,1,32
+902,The Lean Startup: How ...,33.92,3,32
+903,Rework,44.88,2,32
+904,Louisa: The Extraordinary Life ...,16.85,3,33
+905,Setting the World on ...,21.15,2,33
+906,The Faith of Christopher ...,39.55,1,33
+907,Benjamin Franklin: An American ...,48.19,3,33
+908,The Rise of Theodore ...,42.57,3,33
+909,In Her Wake,12.84,3,34
+910,The Elephant Tree,23.82,5,34
+911,Behind Closed Doors,52.22,4,34
+912,You (You #1),43.61,5,34
+913,The Guilty (Will Robie ...,13.82,3,34
+914,The 14th Colony (Cotton ...,39.24,1,34
+915,Give It Back,18.32,3,34
+916,Killing Floor (Jack Reacher ...,31.49,4,34
+917,The Bone Hunters (Lexy ...,59.71,3,34
+918,Far From True (Promise ...,34.93,2,34
+919,The Travelers,15.77,3,34
+920,When We Collided,31.77,1,35
+921,Someone Like You (The ...,52.79,5,35
+922,We Are All Completely ...,24.04,1,35
+923,The Four Agreements: A ...,17.66,3,36
+924,The Activist's Tao Te ...,32.24,5,36
+925,Chasing Heaven: What Dying ...,37.8,2,36
+926,If I Gave You ...,20.91,1,36
+927,Unreasonable Hope: Finding Faith ...,46.33,2,36
+928,A New Earth: Awakening ...,55.65,5,36
+929,Logan Kade (Fallen Crest ...,13.12,3,37
+930,Online Marketing for Busy ...,46.35,1,38
+931,How to Be Miserable: ...,46.03,1,38
+932,"Overload: How to Unplug, ...",52.15,3,38
+933,You Are a Badass: ...,12.08,3,38
+934,How to Stop Worrying ...,46.49,5,38
+935,All the Light We ...,29.87,5,39
+936,The Girl You Left ...,15.79,3,39
+937,(Un)Qualified: How God Uses ...,54,5,40
+938,Crazy Love: Overwhelmed by ...,47.72,2,40
+939,Blue Like Jazz: Nonreligious ...,25.77,1,40
+940,Silence in the Dark ...,58.33,3,41
+941,The Grownup,35.88,1,42
+942,Suzie Snowflake: One beautiful ...,54.81,5,43
+943,The Bulletproof Diet: Lose ...,49.05,3,44
+945,10-Day Green Smoothie Cleanse: ...,49.71,5,44
+946,The Art and Science ...,52.98,5,44
+948,Why the Right Went ...,52.65,4,45
+950,Amid the Chaos,36.58,1,46
+951,Dark Notes,19.19,3,47
+952,The Long Shadow of ...,10.97,3,48
+953,Redeeming Love,100,5,49
+954,A Voice In The Wind,80,4,49
+955,The Masterpiece,90,5,49
+956,Her Mother's Hope,120,3,49
