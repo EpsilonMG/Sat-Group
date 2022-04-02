@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>predict heart disease</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	favicon.
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="/static/images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="/static/css/util.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+
+	<div class="bg-contact3" style="background-image: url('/static/images/bg-01.jpg');">
+		<div  class="container-contact3">
+			<div class="wrap-contact3" style="height: auto;">
+				<form  class="contact3-form validate-form" action="/predict"> 
+					<span class="contact3-form-title">
+						Predict  Heart  Disease
+					</span>
+<!------------------------------------------------------------------------------>
+
+<!--text-->
+<label style="color: rgb(4, 0, 255);">enter your Body Mass Index</label>
+
+					<div class="wrap-input3 validate-input"  >
+						<input class="input3" type="number" name="bmi"   >
+						<span class="focus-input3"></span>
+					</div>
+
+					<label style="color: rgb(4, 0, 255);">Have you smoked at least 100 cigarettes in your entire life?</label>
+<!--radio button-->
+
+					<div class="wrap-contact3-form-radio">
+						<div class="contact3-form-radio m-r-42">
+							<input class="input-radio3" id="smoke1" type="radio" name="smoke" value="1" >
+							<label class="label-radio3" for="smoke1">
+								yes
+							</label>
+						</div>
+
+						<div class="contact3-form-radio">
+							<input class="input-radio3" id="smoke2" type="radio" name="smoke" value="0">
+							<label class="label-radio3" for="smoke2">
+								no
+							</label>
+						</div>
+					</div>
+
+<!--radio button-->
+
+
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">do you  Heavy drinkers (adult men having more than 14 drinks per week and adult women having more than 7 drinks per week</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="alcoholdrinking1" type="radio" name="alcoholdrinking" value="1" >
+		<label class="label-radio3" for="alcoholdrinking1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="alcoholdrinking2" type="radio" name="alcoholdrinking" value="0">
+		<label class="label-radio3" for="alcoholdrinking2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!------------------------------------------------------------------------------>
+<!--text-->
+<label style="color: rgb(4, 0, 255);">for how many days during the past 30 days was your physical health not good? (0-30 days)</label>
+
+<div class="wrap-input3 validate-input" data-validate="Name is required">
+	<input class="input3" type="number" name="PhysicalHealth" min="0" max="30" >
+	<span class="focus-input3"></span>
+</div>
+
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">(Ever told) (you had) a stroke?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="stroke1" type="radio" name="stroke" value="1" >
+		<label class="label-radio3" for="stroke1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="stroke2" type="radio" name="stroke" value="0">
+		<label class="label-radio3" for="stroke2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+
+
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">Do you have serious difficulty walking or climbing stairs?</label>
+
+<div class="wrap-contact3-form-radio">
+<div class="contact3-form-radio m-r-42">
+<input class="input-radio3" id="DiffWalking1" type="radio" name="diffwalking" value="1" >
+<label class="label-radio3" for="DiffWalking1">
+yes
+</label>
+</div>
+
+<div class="contact3-form-radio">
+<input class="input-radio3" id="DiffWalking2" type="radio" name="diffwalking" value="0">
+<label class="label-radio3" for="DiffWalking2">
+No
+</label>
+</div>
+</div>
+
+<!--radio button-->
+
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------------------------------------>
+
+<!--text and selected-->
+<label style="color: rgb(4, 0, 255);"> how many days during the past 30 days was your mental health not good? (0-30 days)</label>
+
+					<div class="wrap-input3 validate-input" >
+						<input class="input3" type="number" name="mentalhealth" max="30" min="0">
+						<span class="focus-input3"></span>
+					</div>
+					<label style="color: rgb(4, 0, 255);">whats your age category</label>
+
+					<div class="wrap-input3 input3-select1">
+						<div>
+							<select class="selection-2" name="agecategory">
+								<option value="AgeCategory_18-24">AgeCategory_18-24</option>
+								<option value="AgeCategory_25-29">AgeCategory_25-29</option>
+								<option value="AgeCategory_30-34">AgeCategory_30-34</option>
+								<option value="AgeCategory_35-39">AgeCategory_35-39</option>
+								<option value="AgeCategory_40-44">AgeCategory_40-44</option>
+								<option value="AgeCategory_45-49">AgeCategory_45-49</option>
+								<option value="AgeCategory_50-54">AgeCategory_50-54</option>
+								<option value="AgeCategory_55-59">AgeCategory_55-59</option>
+								<option value="AgeCategory_60-64">AgeCategory_60-64</option>
+								<option value="AgeCategory_65-69">AgeCategory_65-69</option>
+								<option value="AgeCategory_70-74">AgeCategory_70-74</option>
+								<option value="AgeCategory_75-79">AgeCategory_75-79</option>
+								<option value="AgeCategory_80 or older">AgeCategory_80 or older</option>
+
+							</select>
+						</div>
+						<span class="focus-input3"></span>
+					</div>
+
+
+<!--text and selected-->
+
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">Are you male or female?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="male" type="radio" name="sex" value="1" >
+		<label class="label-radio3" for="male">
+			male
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="female" type="radio" name="sex" value="0">
+		<label class="label-radio3" for="female">
+			female
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">(Ever told) (you had) diabetes?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="Diabetic1" type="radio" name="diabetic" value="1">
+		<label class="label-radio3" for="Diabetic1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="Diabetic2" type="radio" name="diabetic" value="0">
+		<label class="label-radio3" for="Diabetic2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">(Ever told) (you had) asthma?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="Asthma1" type="radio" name="asthma" value="1" >
+		<label class="label-radio3" for="Asthma1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="Asthma2" type="radio" name="asthma" value="0">
+		<label class="label-radio3" for="Asthma2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!--text and selected-->
+<label style="color: rgb(4, 0, 255);">On average, how many hours of sleep do you get in a 24-hour period?</label>
+
+					<div class="wrap-input3 validate-input" >
+						<input class="input3" type="number" name="sleeptime" max="24" min="1">
+						<span class="focus-input3"></span>
+					</div>
+					<label style="color: rgb(4, 0, 255);">Would you say that in general your health is ? (your GenHealth)</label>
+
+					<div class="wrap-input3 input3-select1">
+						<div>
+							<select class="selection-2" name="genhealth">
+								<option value="GenHealth_Excellent">GenHealth_Excellent</option>
+								<option value="GenHealth_Fair">GenHealth_Fair</option>
+								<option value="GenHealth_Good">GenHealth_Good</option>
+								<option value="GenHealth_Poor">GenHealth_Poor</option>
+								<option value="GenHealth_Very good">GenHealth_Very good</option>
+
+							</select>
+						</div>
+						<span class="focus-input3"></span>
+					</div>
+
+
+<!--text and selected-->
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);"> were you ever told you had kidney disease? (Not including kidney stones, bladder infection or incontinence)</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="KidneyDisease1" type="radio" name="kidneydisease" value="1" >
+		<label class="label-radio3" for="KidneyDisease1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="KidneyDisease2" type="radio" name="kidneydisease" value="0">
+		<label class="label-radio3" for="KidneyDisease2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);"> (Ever told) (you had) skin cancer?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="SkinCancer1" type="radio" name="skincancer" value="1" >
+		<label class="label-radio3" for="SkinCancer1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="SkinCancer2" type="radio" name="skincancer" value="0">
+		<label class="label-radio3" for="SkinCancer2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+<!--radio button-->
+<label style="color: rgb(4, 0, 255);">do you make  physical activity or exercise during the past 30 days other than their regular job?</label>
+
+<div class="wrap-contact3-form-radio">
+	<div class="contact3-form-radio m-r-42">
+		<input class="input-radio3" id="PhysicalActivity1" type="radio" name="physicalactivity" value="1" >
+		<label class="label-radio3" for="PhysicalActivity1">
+			yes
+		</label>
+	</div>
+
+	<div class="contact3-form-radio">
+		<input class="input-radio3" id="PhysicalActivity2" type="radio" name="physicalactivity" value="0">
+		<label class="label-radio3" for="PhysicalActivity2">
+			No
+		</label>
+	</div>
+</div>
+
+<!--radio button-->
+
+					<div class="container-contact3-form-btn">
+						<button class="contact3-form-btn">
+							Submit
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="/static/vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/bootstrap/js/popper.js"></script>
+	<script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="/static/vendor/select2/select2.min.js"></script>
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="/static/js/main.js"></script>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
