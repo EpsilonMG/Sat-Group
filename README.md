@@ -1,2 +1,2 @@
 # Sat-Group
-Assignments
+Assignment
