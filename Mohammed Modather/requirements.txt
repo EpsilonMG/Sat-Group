@@ -1,0 +1,7 @@
+numpy
+Flask
+scikit-learn
+joblib
+gunicorn
+xgboost
+f_regression
