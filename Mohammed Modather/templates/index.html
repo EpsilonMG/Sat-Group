@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+
+    <!-- Icons font CSS-->
+    <link href="/static/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="/static/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="/static/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/static/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="/static/css/main.css" rel="stylesheet" media="all">
+    
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins main-bg">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h1 class="title"><b>Telecom churn prediction app</b></h1>
+                    <p class="desc">This app for predicting customer churn status.</p>
+                    <br><br>
+                    <form method="GET" action="/predict">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean monthly revenue</b></label>
+                                    <input class="input--style-4" type="number" step='any' name="rev_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean recurring charge monthly</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="totmrc_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of directory assisted calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="da_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean overage minutes used</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="ovrmou_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean overage revenue</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="ovrrev_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean revenue of data overage</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="datovr_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of roaming calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="roam_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>% change in monthly minutes(prev 3)</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="change_mou">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of dropped data calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="drop_dat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of blocked voice calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="blck_vce_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of blocked data calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="blck_dat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of unanswered voice calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="unan_vce_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of unanswered data calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="unan_dat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of recieved voice calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="recv_vce_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of completed voice calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="comp_vce_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of completed data calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="comp_dat_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of customer care calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="custcare_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of inbound calls less than 1 min</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="inonemin_mean">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of three way calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="threeway_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean unrounded minutes of use of comp_voc</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="mou_cvce_mean">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean unrounded minutes of comp_dat</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="mou_cdat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean unrounded minutes of recv_vov</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="mou_rvce_mean">
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of outbound wireless to wireless voc calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="owylis_vce_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean unrounded minutes used ......</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="mouowylisv_mean">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of inbound wireless to wireless voc calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="iwylis_vce_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of peak voice calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="peak_vce_mean">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no.of data calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="peak_dat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean unrounded minutes used of peak_voc</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="mou_peav_mean">
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean unrounded minutes used of peak_dat</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="mou_pead_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of off peak voice calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="opk_vce_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of off peak data calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="opk_dat_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean unrounded minutes used of off_peak_vce</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="mou_opkv_mean">
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean unrounded minutes used of off_peak_dat </b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="mou_opkd_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of dropped or blocked calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="drop_blk_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no.of completed calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="comp_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Mean no. of call forwading calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="callfwd_mean">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Mean no. of call waiting calls</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="callwait_mean">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Months in service</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="months">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Total no. of calls for the customer</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="totcalls">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Total no. of minutes used by the customer</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="totmou">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Total revenue</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="totrev">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Billing adjusted total revenue</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="adjrev">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Billing adjusted total mins used</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="adjmou">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Billing adjusted total no. of calls</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="adjqty">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Average monthly revenue over the customer's life</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="avgrev">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Average monthly mins used over the customer's life</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="avgmou">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Average monthly no. of calls over customer's life</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="avgqty">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Average monthly mins used over prev 3 months</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="avg3mou">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Average monthly no. of calls over prev 3 months</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="avg3qty">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Average monthly revenue over prev 3 months</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="avg3rev">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Average monthly mins over prev 6 months</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="avg6mou">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>Average monthly no. of calls over prev 6 months</b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="avg6qty">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Average monthly revenue over prev 6 months</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="avg6rev">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                     <label class="label"><b>No. of phones in service </b></label>
+                                      <input class="input--style-4" type="number" step ='any' name="phones">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Estimated income</b></label>
+                                    <input class="input--style-4" type="number" step ='any' name="income">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Credit card holder</b></label>
+                                    <div class="rs-select2 js-select-simple select--no-search">
+                                        <select name="creditcd">
+                                            <option value="Y">Yes</option>
+                                            <option value="N">No</option>
+                                        </select>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label"><b>Area</b></label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="area">
+                                    <option value="NEW YORK CITY AREA">New York city</option>
+                                    <option value="DC/MARYLAND/VIRGINIA">DC/Maryland?Virginia</option>
+                                    <option value="LOS ANGELES AREA">Los Angeles</option>
+                                    <option value="MIDWEST AREA">Midwest</option>
+                                    <option value="ATLANTIC SOUTH AREA">Atlantic South</option>
+                                    <option value="CALIFORNIA NORTH AREA">California North</option>
+                                    <option value="NEW ENGLAND AREA">New England</option>
+                                    <option value="DALLAS AREA">Dallas</option>
+                                    <option value="CHICAGO AREA">Chicago</option>
+                                    <option value="other">other</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit">Predict churn status</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="/static/vendor/select2/select2.min.js"></script>
+    <script src="/static/vendor/datepicker/moment.min.js"></script>
+    <script src="/static/vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="/static/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
