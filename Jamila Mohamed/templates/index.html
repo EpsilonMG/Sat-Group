@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates">
+
+    <!-- Title Page-->
+    <title>Au Register Forms by Colorlib</title>
+
+    <!-- Icons font CSS-->
+    <link href="/static/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="/static/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="/static/vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="/static/vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="/static/css/main.css" rel="stylesheet" media="all">
+    
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins main-bg">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h1 class="title"><b>Loan prediction app</b></h1>
+                    <p class="desc">This app is for predicting whether a loan is accepted or not.</p>
+                    <br><br>
+                    <form method="GET" action="/predict">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Income</b></label>
+                                    <input class="input--style-4" type="number" name="income">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Age</b></label>
+                                    <input class="input--style-4" type="number" name="age">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Years of experience</b></label>
+                                    <input class="input--style-4" type="number" name="experience">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Current job years</b></label>
+                                    <input class="input--style-4" type="number" name="current_job_years">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label"><b>Current house years</b></label>
+                                    <input class="input--style-4" type="number" name="current_house_years">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label"><b>Marital status</b></label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="marital_status">
+                                    <option value="married">Married</option>
+                                    <option value="single">Single</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label"><b>House ownership</b></label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="house_ownership">
+                                    <option value="rented">Rented</option>
+                                    <option value="norent_noown">Not rented / Not owned</option>
+                                    <option value="owned">Owned</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label"><b>Car ownership</b></label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="car_ownership">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label"><b>Profession</b></label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="profession">
+                                    <option value="Mechanical_engineer">Mechanical engineer</option>
+                                    <option value="Software_Developer">Software developer</option>
+                                    <option value="Technical_writer">Technical writer</option>
+                                    <option value="Civil_servant">Civil servant</option>
+                                    <option value="Librarian">Librarian</option>
+                                    <option value="Economist">Economist</option>
+                                    <option value="Flight_attendant">Flight attendant</option>
+                                    <option value="Architect">Architect</option>
+                                    <option value="Designer">Designer</option>
+                                    <option value="Physician">Physician</option>
+                                    <option value="Financial_Analyst">Financial analyst</option>
+                                    <option value="Air_traffic_controller">Air-traffic controller</option>
+                                    <option value="Politician">Politician</option>
+                                    <option value="Police_officer">Police officer</option>
+                                    <option value="Artist">Artist</option>
+                                    <option value="Surveyor">Surveyor</option>
+                                    <option value="Design_Engineer">Design engineer</option>
+                                    <option value="Chemical_engineer">Chemical engineer</option>
+                                    <option value="Hotel_Manager">Hotel manager</option>
+                                    <option value="Dentist">Dentist</option>
+                                    <option value="Comedian">Comedian</option>
+                                    <option value="Biomedical_Engineer">Biomedical engineer</option>
+                                    <option value="Graphic_Designer">Graphic designer</option>
+                                    <option value="Computer_hardware_engineer">Computer hardware engineer</option>
+                                    <option value="Petroleum_Engineer">Petroleum engineer</option>
+                                    <option value="Secretary">Secretary</option>
+                                    <option value="Computer_operator">Computer operator</option>
+                                    <option value="Chartered_Accountant">Chartered accountant</option>
+                                    <option value="Technician">Technician</option>
+                                    <option value="Microbiologist">Microbiologist</option>
+                                    <option value="Fashion_Designer">Fashion designer</option>
+                                    <option value="Aviator">Aviator</option>
+                                    <option value="Psychologist">Psychologist</option>
+                                    <option value="Magistrate">Magistrate</option>
+                                    <option value="Lawyer">Lawyer</option>
+                                    <option value="Firefighter">Firefighter</option>
+                                    <option value="Engineer">Engineer</option>
+                                    <option value="Official">Official</option>
+                                    <option value="Analyst">Analyst</option>
+                                    <option value="Geologist">Geologist</option>
+                                    <option value="Drafter">Drafter</option>
+                                    <option value="Statistician">Statistician</option>
+                                    <option value="Web_designer">Web designer</option>
+                                    <option value="Consultant">Consultant</option>
+                                    <option value="Chef">Chef</option>
+                                    <option value="Army_officer">Army officer</option>
+                                    <option value="Surgeon">Surgeon</option>
+                                    <option value="Scientist">Scientist</option>
+                                    <option value="Civil_engineer">Civil engineer</option>
+                                    <option value="Industrial_Engineer">Industrial engineer</option>
+                                    <option value="Technology_specialist">Technology specialist</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--green" type="submit">Predict loan</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="/static/vendor/select2/select2.min.js"></script>
+    <script src="/static/vendor/datepicker/moment.min.js"></script>
+    <script src="/static/vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="/static/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->
